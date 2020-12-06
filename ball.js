@@ -9,7 +9,7 @@ class ball{
         push();
         translate(this.ballObject.position.x, this.ballObject.position.y);
         rotate(this.ballObject.angle);
-        circle(this.ballObject.position.x,this.ballObject.position.y,this.scale * 2);
+        circle(this.ballObject.position.x,this.ballObject.position.y,this.scale * 3);
         pop();
     }
 }
