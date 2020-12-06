@@ -42,7 +42,7 @@ function keyPressed()
 {
 	if(keyCode == UP_ARROW)
 	{
-		Body.applyForce(balll.ballObject,balll.ballObject.position,{x:(document.getElementById("x").value),y:(document.getElementById("y").value)});
+		Body.applyForce(balll.ballObject,balll.ballObject.position,{x:(intParse(document.getElementById("x").value)),y:intParse(document.getElementById("y").value)});
 		console.log(document.getElementById("y").value);
 	}
 }
