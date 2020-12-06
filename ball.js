@@ -1,7 +1,7 @@
 class ball{
     constructor(x,y,scale,options){
         this.scale = scale;
-        this.ballObject = Bodies.circle(x,y,scale*2,options);
+        this.ballObject = Bodies.circle(x,y,scale/2,options);
         World.add(world,this.ballObject);
     }
 
